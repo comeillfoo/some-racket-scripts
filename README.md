@@ -16,3 +16,4 @@
 ## Список используемых инструментальных средств и список прочитанных статей / книг / руководств при подготовки эссе
 
 1. [Places: Adding Message-Passing Parallelism to Racket](https://www.cs.utah.edu/plt/publications/dls11-tsffd.pdf)
+2. [Beautiful Racket: Make a language in one hour: stacker](https://beautifulracket.com/stacker/why-make-languages.html)
