@@ -10,7 +10,9 @@
 
 Так как Clojure работает на JVM, то он имеет доступ к Java API. Racket же такой роскоши не имеет, но в свою очередь предлагает FFI (Foreign Function Interface), что позволяет использовать функционал динамически линкуемых библиотек. И наоборот Racket предлагает C API, как в Lua. Благодаря этому механизму и были написаны обертки над некоторыми библиотеками, например OpenGL.
 
-У Racket довольно развитая экосистема: raco (менеджер пакетов, а также средство сборки, как cargo для Rust), RackUnit (модульное тестирования), koyo и встроенный язык insta (веб-разработки), пакет [raco-format (для форматирования кода)](https://github.com/mxork/raco-format), пакет [raco-review (линтер)](https://github.com/Bogdanp/racket-review), [`Bogdanp/setup-racket` (action для пайплайнов на github)](https://github.com/Bogdanp/setup-racket).
+У Racket довольно развитая экосистема: raco (менеджер пакетов, а также средство сборки, как cargo для Rust), RackUnit (модульное тестирования), koyo и встроенный язык insta (веб-разработки), пакет [raco-format (для форматирования кода)](https://github.com/mxork/raco-format), пакет [raco-review (линтер)](https://github.com/Bogdanp/racket-review), [Bogdanp/setup-racket (action для пайплайнов на github)](https://github.com/Bogdanp/setup-racket).
+
+Следует отметить, что изучать что-то новое легче, решая какую-либо задачу; еще лучше, когда твой язык можно использовать на онлайн площадках, типо LeetCode или Codeforces. Так вот, наряду с Erlang, OCaml, Elixir, Scala, на LeetCode для решения задач можно использовать Racket.
 
 Во-первых, мне лично очень трудно поддерживать программы, написанные по ООП, поэтому сразу отбрасываем F\# и OCaml.
 
